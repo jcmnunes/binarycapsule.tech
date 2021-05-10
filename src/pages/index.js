@@ -14,13 +14,13 @@ const Wrapper = styled.div`
 `;
 
 const Name = styled.h1`
-  font-family: 'Lenox';
+  font-family: 'Lenox', sans-serif;
   font-size: 48px;
   margin-bottom: 32px;
   color: #ad2167;
 `;
 
-export default () => (
+const IndexPage = () => (
   <Layout>
     <Wrapper>
       <Name>BinaryCapsule</Name>
@@ -38,3 +38,5 @@ export default () => (
     </Wrapper>
   </Layout>
 );
+
+export default IndexPage;

@@ -2,7 +2,7 @@ import React from 'react';
 import GlobalStyle from '../styles/Global';
 import Helmet from 'react-helmet';
 
-export default ({ children }) => (
+const Layout = ({ children }) => (
   <>
     <Helmet title="BinaryCapsule">
       <html lang="en" />
@@ -13,3 +13,5 @@ export default ({ children }) => (
     </div>
   </>
 );
+
+export default Layout;
